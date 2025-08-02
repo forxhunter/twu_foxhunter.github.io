@@ -35,17 +35,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-bps2025-poster-spatially-resolved-hybrid-stochastic-deterministic-model-of-the-galactose-regulatory-network-in-yeast-s-cerevisiae",
+          title: 'BPS2025 Poster - Spatially Resolved Hybrid Stochastic-Deterministic Model of the Galactose Regulatory Network...',
           description: "",
-          section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-talk-in-ipols-2025-about-spatial-heterogeneity-alters-the-dynamics-of-the-yeast-galactose-switch",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-talk-in-ipols-2025-about-spatial-heterogeneity-alters-the-dynamics-of-the-yeast-galactose-switch",
           title: 'Talk in iPoLS 2025 about Spatial Heterogeneity Alters the Dynamics of the Yeast...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
