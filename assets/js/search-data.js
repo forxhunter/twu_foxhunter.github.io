@@ -50,6 +50,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
+            },},{id: "news-oral-presentation-mcb-retreat-2025",
+          title: 'Oral Presentation – MCB Retreat 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
